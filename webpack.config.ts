@@ -76,10 +76,10 @@ const config: webpack.Configuration = {
   devtool: mode === "development" ? "source-map" : false,
   module: {
     rules: [
-      {
-        test: /\.(png|svg|jpg|jpeg|gif)$/,
-        type: "asset/resource",
-      },
+      // {
+      //   test: /\.(png|svg|jpg|jpeg|gif)$/,
+      //   type: "asset/resource",
+      // },
       {
         test: /\.css$/,
         use: cssLoaders,
@@ -89,9 +89,25 @@ const config: webpack.Configuration = {
         use: [...cssLoaders, "sass-loader"],
       },
       {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
+      {
         test: /\.(js|jsx|ts|tsx)$/,
         exclude: /node_modules/,
         use: "babel-loader",
+      },
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: "@svgr/webpack",
+          },
+        ],
       },
     ],
   },
