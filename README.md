@@ -1,7 +1,8 @@
 # Webpack Template
 
-This is the implemented code with React.js, Typescript, and Tailwind CSS based on this design https://www.figma.com/file/EJHpsYAMC9BCWt4qIFlqHU/Freebie-Interactive-Website-%26-Mobile-Responsive-Designs-(Community)?type=design&node-id=0-1&mode=design&t=NDnZoAAea44AS9Ea-0
+This is the implemented code with React.js, Typescript, and Tailwind CSS based on this design: https://www.figma.com/file/EJHpsYAMC9BCWt4qIFlqHU/Freebie-Interactive-Website-%26-Mobile-Responsive-Designs-(Community)?type=design&node-id=0-1&mode=design&t=NDnZoAAea44AS9Ea-0
 
+Deployed on: https://saraparsa13.github.io/webpack-template/
 
 You can see the best view on 375px and 1920px, here is the screenshots of the responsive mode:
 <img width="376" alt="Screenshot 1402-04-17 at 02 09 51" src="https://github.com/saraparsa13/webpack-template/assets/52171220/a9f4ce03-2b27-4f53-bdf9-15ee2443cf4b">
