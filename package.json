@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
+  "homepage": "https://saraparsa13.github.io/webpack-template",
+
   "scripts": {
     "build": "webpack --progress",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint --fix '*.js' './**/*.ts*'",
     "start": "REACT_APP_ENV=development webpack serve --progress"
   },
@@ -44,6 +48,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-webpack-plugin": "^3.2.0",
     "fork-ts-checker-webpack-plugin": "^7.2.13",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.7.0",
     "postcss": "^8.4.19",
