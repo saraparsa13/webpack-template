@@ -18,7 +18,7 @@ const SecondSection: React.FC<Props> = ({ data }) => {
             Quisque porttitor vitae vel amet neque scelerisque mattis. Consectetur nibh velit magna
             consectetur leo.
           </span>
-          <span className="pt-5 pb-30px text-4xl font-bold text-white desktop:pb-60px">
+          <span className="pb-30px pt-5 text-4xl font-bold text-white desktop:pb-60px">
             Cursus Integer Conseq Aliquam Tristique.
           </span>
           <Button light title="Lorem Ipsum" />

@@ -11,7 +11,7 @@ const Footer = () => {
           Vulputate et pulvinar ethre Suspendisse tellus consecteur
         </span>
         <Button title="Lorem Ipsum" />
-        <hr className="mt-9 mb-8 bg-dark" />
+        <hr className="mb-8 mt-9 bg-dark" />
         <span className="font-light">Copyright © 2022 Lorem Ipsum.</span>
         <span className="font-light">Privacy Policy | Terms & Conditions</span>
       </div>

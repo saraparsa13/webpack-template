@@ -48,7 +48,7 @@ const ThirdSection = () => {
           </animated.span>
           <animated.span
             style={{ color: titleColor }}
-            className="pt-10 pb-5 text-base font-light text-dark desktop:text-3xl">
+            className="pb-5 pt-10 text-base font-light text-dark desktop:text-3xl">
             Euismod magna id purus eget nunc ligula suspendisse dui netus. Condimentum blandit
             rutrum at mauris enim pulvinar duis etiam duis.{" "}
           </animated.span>

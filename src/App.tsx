@@ -33,7 +33,7 @@ export type CardDataType = {
   title: string;
   sub1: string;
   sub2: string;
-  icon: React.ReactElement<any, any>;
+  icon: React.ReactElement;
 };
 
 const CHIPSDATA: ChipsDataType[] = [

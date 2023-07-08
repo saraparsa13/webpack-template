@@ -25,7 +25,7 @@ const Card: React.FC<CardDataType> = ({ title, sub1, sub2, icon, index }) => {
         onMouseLeave={() => set({ backgroundColor: "white", color: "#262626" })}
         className="flex h-full w-full flex-col rounded-[60px] p-50px">
         {icon}
-        <div className="flex items-baseline pt-6 pb-2 text-7xl font-bold">
+        <div className="flex items-baseline pb-2 pt-6 text-7xl font-bold">
           <animated.span style={{ color }}>{index}</animated.span>
           <animated.span
             style={{ color }}

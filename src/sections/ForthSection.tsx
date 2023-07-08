@@ -15,7 +15,7 @@ const ForthSection: React.FC<Props> = ({ data }) => {
         <span className="text-center text-4xl font-bold text-white desktop:text-6xl">
           Phasellus a vitae iaculis magna.
         </span>
-        <span className="w-2/3 pt-5 pb-10 text-center text-base text-white desktop:pb-90px desktop:text-3xl desktop:font-light">
+        <span className="w-2/3 pb-10 pt-5 text-center text-base text-white desktop:pb-90px desktop:text-3xl desktop:font-light">
           {" "}
           Phasellus a vitae iaculis magna eleifend pulvinar velit odio.
         </span>

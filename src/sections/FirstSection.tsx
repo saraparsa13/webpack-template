@@ -18,7 +18,7 @@ const FirstSection: React.FC<Props> = ({ data }): React.ReactElement => {
       <div className="desktop: flex w-350px flex-col items-center laptop:w-1040px desktop:w-1600px">
         <Header />
         <div className="flex w-full flex-col-reverse items-center justify-end gap-3 pt-0 desktop:flex-row desktop:pt-68px">
-          <div className="flex flex-col pt-0 pl-0 desktop:pl-8 desktop:pt-12">
+          <div className="flex flex-col pl-0 pt-0 desktop:pl-8 desktop:pt-12">
             <span className="text-base font-bold text-yellow desktop:text-3xl">
               RISUS PRAESENT VULPUTATE.
             </span>
@@ -36,7 +36,7 @@ const FirstSection: React.FC<Props> = ({ data }): React.ReactElement => {
                 showCursor={true}
               />
             </span>
-            <div className="flex flex-wrap gap-14px pt-30px pb-10 desktop:py-60px">
+            <div className="flex flex-wrap gap-14px pb-10 pt-30px desktop:py-60px">
               {data.map((chips: ChipsDataType) => (
                 <Chips key={chips.key} title={chips.title} />
               ))}
