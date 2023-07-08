@@ -4,7 +4,6 @@
   "license": "MIT",
   "private": true,
   "homepage": "https://saraparsa13.github.io/webpack-template",
-
   "scripts": {
     "build": "webpack --progress",
     "predeploy": "npm run build",
