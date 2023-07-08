@@ -18,6 +18,8 @@ import Footer from "./sections/Footer";
 import ForthSection from "./sections/ForthSection";
 import { CarouselWrapper } from "react-pretty-carousel";
 
+import "./index.css";
+
 export type ChipsDataType = {
   key: string;
   title: string;

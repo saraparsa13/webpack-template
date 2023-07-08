@@ -19,7 +19,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background: #FEEDBC;
+  background: #FEEDBC !important;
   transform: scaleY(1.8);
   z-index: -100;
 }
@@ -30,7 +30,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background: #262626;
+  background: #262626 !important;
   transform: skewY(-14deg);
   z-index: -99;
 }
@@ -41,7 +41,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background: #F9B800;
+  background: #F9B800 !important;
   transform: skewY(-14deg);
   z-index: -99;
 }
@@ -78,17 +78,17 @@ body {
   font-family: sans-serif;
   border: 0;
   outline: none;
-  background: #262626;
-  color: #F9B800;
+  background: #262626 !important;
+  color: #F9B800 !important;
   padding: 10px 20px;
   margin: 8px 1px;
   cursor: pointer;
 }
 .rpc-content-controls button:hover {
-  background: #262626;
+  background: #262626 !important;
 }
 .rpc-content-controls button:active {
-  background: #262626;
+  background: #262626 !important;
 }
 .rpc-content-controls .rpc-prev-btn {
   border-radius: 7px 0 0 7px;
@@ -105,12 +105,12 @@ body {
   border-radius: 10px;
   height: 10px;
   width: 10px;
-  background: #262626;
+  background: #262626 !important;
   margin: 5px;
   cursor: pointer;
 }
 .rpc-content-controls .rpc-content-control-dots .rpc-control-dot.active {
-  background: #FEEDBC;
+  background: #FEEDBC !important;
 }
 .rpc-content-controls .rpc-content-control-dots .rpc-control-dot.hide {
   display: none;
